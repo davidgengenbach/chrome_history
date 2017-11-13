@@ -9,4 +9,4 @@ EXPORT_LOCATION="data/history.txt"
 
 mkdir -p "data"
 
-sqlite3 "$SQLITE_PATH"/History "select datetime(last_visit_time/1000000-11644473600,'unixepoch'),url from  urls order by last_visit_time desc" > "$EXPORT_LOCATION"
+sqlite3 "$SQLITE_PATH"/History "select datetime(last_visit_time/1000000-11644473600,'unixepoch'),url from  urls order by last_visit_time desc" > "$EXPORT_LOCATION" || echo -e "\n\nERROR: There was an error! Please make sure that Chrome is closed otherwise this will fail."
