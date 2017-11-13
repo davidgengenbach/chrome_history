@@ -13,5 +13,5 @@ pip install -r requirements.txt
 
 jupyter notebook
 
-# And open the analyize_chrome_history notebook
+# And open the analize_chrome_history notebook
 ```
