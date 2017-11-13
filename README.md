@@ -1,5 +1,8 @@
 # Analyzing the Google Chrome history
-I minimally adapted the code from [this blogpost](https://applecrazy.github.io/blog/posts/analyzing-browser-hist-using-python/) by **AppleCrazy**. Thanks a lot for sharing!
+Idea taken from from [this blogpost](https://applecrazy.github.io/blog/posts/analyzing-browser-hist-using-python/) by AppleCrazy.
+I adapted the code and added more functionality.
+
+The script exports the Google Chrome history directly from the _sqlite_ database.
 
 ## Instructions
 ```shell
@@ -8,12 +11,8 @@ cd chrome_history
 
 pip install -r requirements.txt
 
-# Depending on which system you are worknig, you might have to adapt the paths in this file
-./get_chrome_history.sh
-
 jupyter notebook
-
-# And open the analize_chrome_history notebook
+# And open the analyze_chrome_history.ipynb notebook
 ```
 
 ![Visits per hour](data/visits_per_hour.png)
