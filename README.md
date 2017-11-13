@@ -1,4 +1,5 @@
 # Analyzing the Google Chrome history
+I minimally adapted the code from [this blogpost](https://applecrazy.github.io/blog/posts/analyzing-browser-hist-using-python/) by **AppleCrazy**. Thanks a lot for sharing!
 
 ## Instructions
 ```python
