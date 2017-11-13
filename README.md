@@ -15,3 +15,5 @@ jupyter notebook
 
 # And open the analize_chrome_history notebook
 ```
+
+![Visits per hour](data/visits_per_hour.png)
